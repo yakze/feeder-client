@@ -24,13 +24,13 @@ Feeder Chatは、軽量でリアクティブなチャットシステム。
 
 ## 🛠️ Built With
 
-| Tech          | Role                          |
-|---------------|-------------------------------|
-| Electron      | クロスプラットフォーム基盤     |
-| React + Vite  | フロントエンド高速構築         |
-| Tailwind CSS  | 美しく、柔軟なUI構築           |
-| TypeScript    | 安定性と可読性の両立           |
-| WebSocket     | リアルタイム通信               |
+　| Tech          | Role                          |
+　|---------------|-------------------------------|
+　| Electron      | クロスプラットフォーム基盤     |
+　| React + Vite  | フロントエンド高速構築         |
+　| Tailwind CSS  | 美しく、柔軟なUI構築           |
+　| TypeScript    | 安定性と可読性の両立           |
+　| WebSocket     | リアルタイム通信               |
 
 ---
 
@@ -43,6 +43,8 @@ Feeder Chatは、軽量でリアクティブなチャットシステム。
 - ✅ ショートカット対応（Cmd/Ctrl + Kでチャンネル切替）
 - ✅ Markdownレンダリング + カスタム絵文字
 - ✅ ADblock（広告非表示）
+- ✅ 完全無視機能　（返信セクション内無視貫通防止）
+- ✅ 5個のフリーアカウント（＋版は15個）
 - ✅ ALTmanager（サブ垢管理）
 - ✅ カスタムCSSローダー
 - More…
@@ -52,15 +54,15 @@ Feeder Chatは、軽量でリアクティブなチャットシステム。
 ## 🚧 Project Structure
 
 feeder-client-electron/
-├── public/ # アイコン・マニフェスト
-├── src/
-│ ├── main/ # Electron メインプロセス
-│ ├── renderer/ # フロントエンド（React）
-│ └── preload.ts # 安全なブリッジスクリプト
-├── dist/ # ビルド成果物
-├── package.json
-├── vite.config.ts
-└── electron-builder.yml
+<b>├── public/ # アイコン・マニフェスト
+<b>├── src/
+<b>│ ├── main/ # Electron メインプロセス
+<b>│ ├── renderer/ # フロントエンド（React）
+<b>│ └── preload.ts # 安全なブリッジスクリプト
+<b>├── dist/ # ビルド成果物
+<b>├── package.json
+<b>├── vite.config.ts
+<b>└── electron-builder.yml
 
 ## 🚀 Getting Started
 
